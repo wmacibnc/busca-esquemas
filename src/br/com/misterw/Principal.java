@@ -25,24 +25,17 @@ import javax.swing.SwingConstants;
 import javax.swing.table.DefaultTableModel;
 
 public class Principal extends JFrame {
+	
+	private static final long serialVersionUID = 8147516787602099704L;
 
 	private static final String TITULO_RODAPE = "Desenvolvido por Mister W Informática - Licenciado para Elimart";
-
 	private static final String BUSCA_ESQUEMAS = "Busca Esquemas";
-
 	private static final int TAMANHO_FONTE_PADRAO = 12;
-
 	private static final String FONTE_PADRAO = "Arial";
-
 	private static final String COLUNA_2 = "Ação";
-
 	private static final String COLUNA_1 = "Arquivo";
-
 	private static final String RESULTADO_DA_PESQUISA = "Resultado da Pesquisa ";
-
 	private static final String APP_CONFIG = "app.config";
-
-	private static final long serialVersionUID = 8147516787602099704L;
 
 	private JFrame telaPrincipal;
 	private JTextField txtPasta;
